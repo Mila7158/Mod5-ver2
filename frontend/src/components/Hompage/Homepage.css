@@ -1,0 +1,55 @@
+.homepage {
+    padding: 20px;
+}
+
+.spots-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.spot-tile {
+    overflow: hidden;
+}
+
+.spot-tile:hover {
+    transform: scale(1.02);
+}
+
+.spot-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.spot-details-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.spot-details {
+    padding: 10px;
+}
+
+.spot-details h3 {
+    font-size: 16px;
+}
+
+.spot-rating {
+    margin-left: 8px;
+    color: gold;
+}
+
+.filled-star {
+    color: gold;
+}
+
+.empty-star {
+    color: lightgray;
+}
+
+.spot-price {
+    color: green;
+    font-weight: bold;
+}
